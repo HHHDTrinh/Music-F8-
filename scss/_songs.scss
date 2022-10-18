@@ -1,0 +1,57 @@
+.song {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1.2rem;
+    margin-left: 3rem;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 0.5rem 3rem 0.5rem 1rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+
+    &.active{
+        background-color: $active-color;
+
+        .option, .author, .title{
+            color: $white-color;
+        }
+    }
+
+    &:active{
+        opacity: 0.6;
+    }
+
+    .thumb{
+        background-image: url(./img/background.webp);
+        width: 4.4rem;
+        height: 4.4rem;
+        border-radius: 50%;
+        background-size: cover;
+        margin: 0 8px;
+    }
+
+    .body{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .title, .author, .option{
+        color: $text-color;
+    }
+
+    .title{
+        font-size: 1.6rem;
+        margin: 0;
+    }
+
+    .author{
+        font-size: 1.2rem;
+    }
+
+    .option{
+        font-size: 2.0rem;
+    }
+}

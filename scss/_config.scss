@@ -1,0 +1,42 @@
+// Imports
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+
+// Root
+$primary-color: #fd8560;
+$text-color: #2a2237;
+$active-color: rgba(247, 174, 6, 0.8);
+$white-color: #fff;
+$active-color-hover: rgba(209, 153, 78, 0.8);
+
+
+
+*{
+    box-sizing: inherit;
+    padding: 0;
+    margin: 0;
+}
+  
+html {
+    scroll-behavior: smooth;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    font-size: 10px;
+}
+
+::-webkit-scrollbar {
+    width: 1rem;
+  }
+  
+/* Track */
+::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 1rem;
+}
+   
+/* Handle */
+::-webkit-scrollbar-thumb {
+    
+    background-color: $active-color;
+    border-radius: 1rem;
+}
