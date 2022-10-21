@@ -45,62 +45,62 @@ let theVolume = 100;
 // Định nghĩa app
 const app = {
   // Dữ liệu bài hát
-  // Chaỵ ở local thì path và image cần /dist ở đằng trước đường dẫn
-  // Còn để chạy ở browser thì ta nên xóa hết /dist trước đường dẫn đi
+  // Chaỵ ở local thì path và image cần  ở đằng trước đường dẫn
+  // Còn để chạy ở browser thì ta nên xóa hết  trước đường dẫn đi
   songs: [
     {
       name: "Better",
       singer: "Arma8",
-      path: "/dist/music/Better_-_Arma8.mp3",
-      image: "/dist/img/songs/Better.jpeg",
+      path: "/music/Better_-_Arma8.mp3",
+      image: "/img/songs/Better.jpeg",
     },
     {
       name: "I Know Now",
       singer: "Xander Black",
-      path: "/dist/music/I_Know_Now_-_Xander_Black.mp3",
-      image: "/dist/img/songs/I_Know_Now.jpeg",
+      path: "/music/I_Know_Now_-_Xander_Black.mp3",
+      image: "/img/songs/I_Know_Now.jpeg",
     },
     {
       name: "Meant To Be This Way",
       singer: "Square a Saw",
-      path: "/dist/music/Meant_To_Be_This_Way_-_Square_a_Saw.mp3",
-      image: "/dist/img/songs/Meant_To_Be_This_Way.jpeg",
+      path: "/music/Meant_To_Be_This_Way_-_Square_a_Saw.mp3",
+      image: "/img/songs/Meant_To_Be_This_Way.jpeg",
     },
     {
       name: "Nothing, With you",
       singer: "Smoking with Poets",
-      path: "/dist/music/Nothing,With_You_-_Smoking_With_Poets.mp3",
-      image: "/dist/img/songs/Nothing,With_You.jpeg",
+      path: "/music/Nothing,With_You_-_Smoking_With_Poets.mp3",
+      image: "/img/songs/Nothing,With_You.jpeg",
     },
     {
       name: "My Love",
       singer: "MODUS",
-      path: "/dist/music/My_Love_-_MODUS.mp3",
-      image: "/dist/img/songs/My_Love.jpeg",
+      path: "/music/My_Love_-_MODUS.mp3",
+      image: "/img/songs/My_Love.jpeg",
     },
     {
       name: "One day",
       singer: "I.D.F.X",
-      path: "/dist/music/I._D._F._X._-_One_Day.mp3",
-      image: "/dist/img/songs/One_day.jpeg",
+      path: "/music/I._D._F._X._-_One_Day.mp3",
+      image: "/img/songs/One_day.jpeg",
     },
     {
       name: "Star in the sky",
       singer: "Square a Saw",
-      path: "/dist/music/Square_a_Saw_-_Star_in_the_Sky.mp3",
-      image: "/dist/img/songs/Star_in_the_sky.jpeg",
+      path: "/music/Square_a_Saw_-_Star_in_the_Sky.mp3",
+      image: "/img/songs/Star_in_the_sky.jpeg",
     },
     {
       name: "Unbreakable",
       singer: "DJ Pokki",
-      path: "/dist/music/Unbreakable_-_Pokki_DJ_(2).mp3",
-      image: "/dist/img/songs/unbreakable.jpeg",
+      path: "/music/Unbreakable_-_Pokki_DJ_(2).mp3",
+      image: "/img/songs/unbreakable.jpeg",
     },
     {
       name: "Under Water",
       singer: "The madpix project",
-      path: "/dist/music/Under_Water_-_the.madpix.project.mp3",
-      image: "/dist/img/songs/Under_Water.jpeg",
+      path: "/music/Under_Water_-_the.madpix.project.mp3",
+      image: "/img/songs/Under_Water.jpeg",
     },
   ],
 
