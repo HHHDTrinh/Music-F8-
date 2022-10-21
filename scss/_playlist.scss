@@ -35,6 +35,37 @@
     }
 }
 
+.music_playlist--mobile{
+    height: 100%;
+    width: 100vw;
+    padding: 2rem;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    box-shadow: 0.4rem 0.6rem 5rem rgb(0,0,0,0.15);
+    border: 1px solid rgba(255, 255, 255, 0.8);
+    transform: translateX(100%);
+    opacity: 0;
+    transition: all 1s linear;
+    position: absolute;
+    z-index: 200;
+    
+    &.non-active--mobile{
+        animation: none !important;
+    }
+
+    &.active--mobile{
+        opacity: 1;
+        transform: translateX(0);
+    }
+
+    .song{
+        width: 100%;
+        margin-left: 0 !important;
+        background: rgba(255, 255, 255, 0.7);
+    }
+}
+
 .music_dashboard{
     z-index: 100;
     border-left: 1px solid rgba(255, 255, 255, 0.5);

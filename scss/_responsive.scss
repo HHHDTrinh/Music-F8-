@@ -1,0 +1,47 @@
+@media screen and (max-width: 46.1875em) {
+    .lg-screen{
+        display: none !important;
+    }
+
+    .app_music{
+        height: 100%;
+        overflow: hidden;
+    }
+
+    .title > h4{
+        font-size: 2.6rem;
+    }
+
+    .title > h2{
+        font-size: 2.4rem;
+    }
+
+    .playlist-btn{
+        top: 2rem;
+        font-size: 3rem;
+    }
+
+    .control{
+        margin-bottom: 3rem;
+    }
+
+    .cd{
+        width: 32rem;
+    }
+
+    .cd-thumb::after,
+    .cd-thumb::before{
+        content: none;
+    }
+
+    .music_playlist, .music_dashboard{
+        max-width: 100vw;
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        // display: none;
+        flex-direction: column;
+        justify-content: center;
+        align-items: stretch;
+    }
+}
