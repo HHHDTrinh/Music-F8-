@@ -39,6 +39,7 @@ const repeatBtn = $(".btn-repeat");
 
 // Sm-screen
 const mobileList = $(".music_playlist--mobile");
+const songsMobile = $(".songs_mobile");
 
 let theVolume = 100;
 
@@ -148,7 +149,7 @@ const app = {
             `;
     });
     playlist.innerHTML = htmls.join("");
-    mobileList.innerHTML = htmls.join("");
+    songsMobile.innerHTML = htmls.join("");
     timeCurrent.innerText = `00:00`;
     timeDuration.innerText = `00:00`;
   },
