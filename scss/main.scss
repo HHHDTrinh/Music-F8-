@@ -9,4 +9,9 @@ body{
     justify-content: center;
     align-items: center;
     color: $text-color;
+    overflow: hidden;
+}
+
+.sm-screen{
+    display: none;
 }
